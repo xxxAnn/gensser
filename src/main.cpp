@@ -1,5 +1,4 @@
-#include <torch/torch.h>
-#include <iostream>
+#include "gensser.hpp"
 
 int main() {
   torch::Tensor tensor = torch::rand({1});
